@@ -1,1 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int g,kg;
+    printf("enter weight in g");
+    scanf("%d",&g);
+    kg=g/1000;
+    printf("the weight in kg is %d",kg);
+
+    return 0;
+}
 
